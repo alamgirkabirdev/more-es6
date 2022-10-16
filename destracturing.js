@@ -6,11 +6,11 @@ const fish = {id: 52, name: 'King Hilsha', price: 9000, phone:'0172554878', addr
 
 const {phone, price, id, dress} = fish;
 
-console.log(phone,price);
-console.log(phone, dress);
-console.log(phone);
-console.log(phone, price);
-console.log(phone);
+// console.log(phone,price);
+// console.log(phone, dress);
+// console.log(phone);
+// console.log(phone, price);
+// console.log(phone);
 
 const company = {
     name: 'GP',
@@ -27,3 +27,4 @@ const {name} = company.ceo;
 const {first, second} = company.web.tech;
 
 console.log(work,framework, name, first, second);
+console.log(company?.backend?.tech.third);
