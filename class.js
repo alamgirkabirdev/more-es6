@@ -15,6 +15,7 @@ const aamir = new Support('Aamir Khan', 'BD');
 const salman = new Support('Solaiman Khan', 'Dubai');
 const sharuk = new Support('SKR Khan ', 'uk');
 const akshay = new Support ('Akshay Kumar', 'ID');
+
 aamir.startSession();
 salman.startSession();
 console.log(aamir, salman, sharuk, akshay,);
