@@ -43,4 +43,6 @@ const akshay = new Support ('Akshay Kumar', 'ID', 11);
 const alia = new StudentCare('Alia Bhatt', 'Mumbai', 12);
 const ash  = new NeptuneDev('Ash','Mumbai', 'Android studio');
 ash.releaseApp('1.4.5');
-console.log(ash);
+console.log(ash.name);
+
+// barir kaj google sarce (js class)
